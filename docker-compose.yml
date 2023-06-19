@@ -14,7 +14,7 @@ services:
    image: amd64/ubuntu
    restart: always
    ports:
-     - "10250:10250"
+     - "10251:10250"
    networks:
      - worker-node
      
@@ -23,7 +23,7 @@ services:
    image: amd64/ubuntu
    restart: always
    ports:
-     - "10250:10250"
+     - "10252:10250"
    networks:
      - worker-node
 
