@@ -6,7 +6,6 @@ services:
    restart: always
    ports:
      - "10250:10250"
-     - "30000:32767:30000:32767"
    networks:
      - worker-node
 
@@ -16,7 +15,6 @@ services:
    restart: always
    ports:
      - "10250:10250"
-     - "30000:32767:30000:32767"
    networks:
      - worker-node
      
@@ -26,7 +24,6 @@ services:
    restart: always
    ports:
      - "10250:10250"
-     - "30000:32767:30000:32767"
    networks:
      - worker-node
 
